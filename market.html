@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="CSS/style.css">
+    <script src="JAVA/java.js" defer></script>
+    <link href='https://fonts.googleapis.com/css?family=Lato' rel='stylesheet'>
+    <title>Marketplace</title>
+    <style>
+        .body{
+            font-family: 'Lato';
+        }
+        .m {
+            z-index: 0;
+            min-height: 70vh;
+            position: relative;
+            overflow: hidden;
+        }
+        .m::before {
+            content: ' ';
+            position: absolute;
+            left: 0;
+            top: 0;
+            width: 100%;
+            height: 100%;
+            filter: brightness(50%); 
+            background-image: url(images/garapan\ -\ Copy.jpg);
+            display: block;
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: 50% 0;
+        }
+        .mc {
+            position: absolute;
+            margin-left: auto;
+            margin-right: auto;
+            margin-bottom: auto;
+            margin-top: auto;
+            left: 0;
+            right: 0;
+            top: 10%;
+            bottom: 0;
+            justify-content: center;
+            text-align: center;
+            color: white;
+        }
+        .mc  > h1 {
+            font-size: 70px; 
+        }
+
+        .market-container .mbox-container {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 2.5rem;
+            margin-top: 2%;
+        }
+        .market-container .mbox-container .mbox {
+            flex:1 1 1 30rem;
+            border-radius: .5rem;
+            overflow: hidden;
+            box-shadow: 0 1rem 2rem rgba(0,0,0,.1);
+        }
+        .market-container .mbox-container .mbox img {
+            height: 25rem;
+            width: 100%;
+            object-fit: cover;
+            width: 500px;
+            height: 200px;
+        }
+
+        .market-container .mbox-container .mbox .item{ 
+            padding:2rem;
+            text-align: center;  
+        }
+        .market-container .mbox-container .mbox button {
+            text-decoration: none;
+            padding: 5px 40px; 
+            margin: auto 40%;
+            margin-bottom: 5%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="topnav" id="myTopnav">
+            <nav class="navbar">
+                <a href="about.html">About</a>
+                <a href="contact.html">Contact Us</a>
+                <a href="website.html">Home</a>
+                <i class="logo">
+                    <img src="images\MALL-removebg-preview.png" alt="670 Mall Logo" style="width: 80px; margin: 5px;">
+                </i>
+                <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                <i class="fa fa-bars">
+                    <img src="images\hambaga-removebg-preview.png" alt="hamburger icon" style="width: 50px; margin: -10px;">
+                </i>
+                </a>
+            </nav>
+        </div>
+    </header>
+    <section class="m">
+        <div class="mc">
+            <h1>Buy or Sell Items Locally!</h1>
+            </a>
+        </div>
+    </section>
+    </div>
+    <section class="market-container">
+        <div class="mbox-container">
+            <div class="mbox">
+                <img src="images/drill2.jpg" alt="Drill Picture">
+                <div  class="item">
+                    <h2>Drill Set</h2>
+                    <p>Rota</p>
+                    <p>$100</p>
+                    <p>Like New</p>
+                    <i></i>
+                </div>
+                <a href="">
+                    <button  class="visit" type="button">
+                        <h2>Buy</h2>
+                    </button>
+                </a>
+            </div>
+            <div class="mbox">
+                <img src="images/funko2.jpg" alt="Funk Pop Figures" >
+                <div  class="item">
+                    <h2>Funko Pop</h2>
+                    <p>Saipan</p>
+                    <p>$50</p>
+                    <i></i>
+                </div>
+                <a href="">
+                    <button  class="visit" type="button">
+                        <h2>Buy</h2>
+                    </button>
+                </a>
+            </div>
+
+            <div class="mbox">
+                <img src="images/tacoma.jpg" alt="Toyota Tacoma Picture" >
+                <div  class="item">
+                    <h2>Toyota Tacoma</h2>
+                    <p>Tinian</p>
+                    <p>$50,0000</p>
+                    <p>Will get you from point a to <br>b. Lifted and cherry braddah.</p>
+                    <i></i>
+                </div>
+                <a href="">
+                    <button  class="visit" type="button">
+                        <h2>Buy</h2>
+                    </button>
+                </a>
+            </div>
+
+            <div class="mbox">
+                <img src="images/bestsunshine.jpg" alt="Drill Picture">
+                <div  class="item">
+                    <h2>Best Sunshine</h2>
+                    <p>Saipan</p>
+                    <p>$1 or best offer</p>
+                    <i></i>
+                </div>
+                <a href="">
+                    <button  class="visit" type="button">
+                        <h2>Buy</h2>
+                    </button>
+                </a>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <div class="foot-container">
+            <div class="foot">
+                <img src="images/MALL-removebg-preview.png" alt="">
+            </div>
+            <div class="foot">
+                <h1>Thank you for visiting!</h1>
+            </div>
+            <div class="foot">
+                <h1>Contact Us!</h1>
+                <h2>Phone: </h2>
+                <a href="tel:123-456-7890">123-456-7890</a>
+                <h2>Email: </h2>
+                <a href="mailto:example@gmail.com">example@gmail.com</a>
+            </div>
+            <div class="foot">
+                <h1>Quick Links:</h1>
+                <ul>
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="contact.html">Contact Us</a></li>
+                </ul>
+            </div>
+            <br>
+            <div class="foot"> <p>I do not own the rights or own any images and videos used within this website. </p></div>
+        </div>
+    </footer>
+</body>
+</html>

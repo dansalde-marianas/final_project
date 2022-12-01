@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="CSS/style.css">
+    <script src="JAVA/overall.js" defer></script>
+    <link rel="website" href="website.html">
+    <title>Document</title>
+    <link href='https://fonts.googleapis.com/css?family=Lato' rel='stylesheet'>
+    <title>Contact Us</title>
+    <style>
+        .body{
+            font-family: 'Lato';
+        }
+
+        .contact .contact-container {
+            display: flex;
+            flex: wrap;
+            gap: 2rem;
+            align-items: center;
+        }
+        .contact h1 {
+            text-align: center;
+            font-size: 40px;
+        }
+        .contact .contact-container form{
+            flex:1 1 50rem;
+            padding:2rem;
+            box-shadow: 0 1rem 2rem rgba(0,0,0,.1);
+            border-radius: .5rem;    
+        }
+        .contact .contact-container form .inputBox {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+        }
+        .contact .contact-container form .inputBox input, .contact .contact-container form textarea {
+            width:49%;
+            margin:1rem 0;
+            padding:1rem;
+            font-size: 1.7rem;
+            color:#333;
+            background:#f7f7f7;
+            text-transform: none;
+        }
+        .contact .contact-container form textarea {
+            height: 15rem;
+            resize: none;
+            width: 100%
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="topnav" id="myTopnav">
+            <nav class="navbar">
+                <a href="about.html">About</a>
+                <a href="contact.html">Contact Us</a>
+                <a href="website.html">Home</a>
+                <i class="logo">
+                    <img src="images\MALL-removebg-preview.png" alt="670 Mall Logo" style="width: 80px; margin: 5px;">
+                </i>
+                <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                <i class="fa fa-bars">
+                    <img src="images\hambaga-removebg-preview.png" alt="hamburger icon" style="width: 50px; margin: -10px;">
+                </i>
+                </a>
+            </nav>
+        </div>
+    </header>
+    <section class="contact">
+        <h1>Contact Us!</h1>
+        <div class="contact-container">
+            <form action="https://formsubmit.co/ninjapple670@gmail.com" method="POST" >
+                <div class="inputBox">
+                    <input type="text"  name="name" placeholder="name">
+                    <input type="email" name="email" placeholder="email">
+                </div>
+                <div class="inputBox">
+                    <input type="number" name="phone" placeholder="number">
+                    <input type="text" name="subject" placeholder="subject">
+                </div>
+                <textarea placeholder="message" name="message" id="" cols="30" rows="10"></textarea>
+                <input type="hidden" name="_next" value="https://nmc-css222-salde.000webhostapp.com/website.html">
+                <button type="submit">Send</button>
+                
+            </form>
+        </div>
+    </section>>
+    <footer>
+        <div class="foot-container">
+            <div class="foot">
+                <img src="images/MALL-removebg-preview.png" alt="">
+            </div>
+            <div class="foot">
+                <h1>Thank you for visiting!</h1>
+            </div>
+            <div class="foot">
+                <h1>Contact Us!</h1>
+                <h2>Phone: </h2>
+                <a href="tel:123-456-7890">123-456-7890</a>
+                <h2>Email: </h2>
+                <a href="mailto:example@gmail.com">example@gmail.com</a>
+            </div>
+            <div class="foot">
+                <h1>Quick Links:</h1>
+                <ul>
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="contact.html">Contact Us</a></li>
+                </ul>
+            </div>
+            <br>
+            <div class="foot"> <p>I do not own the rights or own any images and videos used within this website. </p></div>
+        </div>
+    </footer>
+</body>
+</html>
+
+

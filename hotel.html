@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="CSS/style.css">
+    <script src="JAVA/overall.js" defer></script>
+    <link rel="website" href="website.html">
+    <link href='https://fonts.googleapis.com/css?family=Lato' rel='stylesheet'>
+    <title>Document</title>
+    <style>
+        .body{
+            font-family: 'Lato';
+        }
+        .hotel-container .box-container {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 2.5rem;
+            margin-top: 2%;
+        }
+        .hotel-container .box-container .box {
+            flex:1 1 1 30rem;
+            border-radius: .5rem;
+            overflow: hidden;
+            box-shadow: 0 1rem 2rem rgba(0,0,0,.1);
+        }
+        .hotel-container .box-container .box img {
+            height: 25rem;
+            width: 100%;
+            object-fit: cover;
+            width: 500px;
+            height: 200px;
+        }
+
+        .hotel-container .box-container .box .hotel{ 
+            padding:2rem;
+            text-align: center;  
+        }
+        .hotel-container .box-container .box button {
+            text-decoration: none;
+            padding: 5px 40px; 
+            margin: auto 40%;
+            margin-bottom: 5%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="topnav" id="myTopnav">
+            <nav class="navbar">
+                <a href="about.html">About</a>
+                <a href="contact.html">Contact Us</a>
+                <a href="website.html">Home</a>
+                <i class="logo">
+                    <img src="images\MALL-removebg-preview.png" alt="670 Mall Logo" style="width: 80px; margin: 5px;">
+                </i>
+                <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                <i class="fa fa-bars">
+                    <img src="images\hambaga-removebg-preview.png" alt="hamburger icon" style="width: 50px; margin: -10px;">
+                </i>
+                </a>
+            </nav>
+        </div>
+    </header>
+    <section class="hotel-container">
+        <div class="box-container">
+            <div class="box">
+                <img src="images/kengsington.jpg" alt="Kengsington Hotel Picture" >
+                <div  class="hotel">
+                    <h2>Kengsington</h2>
+                    <p>Marpi, Saipan</p>
+                    <i></i>
+                </div>
+                <a href="">
+                    <button  class="visit" type="button">
+                        <h2>Visit</h2>
+                    </button>
+                </a>
+            </div>
+            <div class="box">
+                <img src="images/hyatt.jpg" alt="Hyatt Hotel Picture" >
+                <div  class="hotel">
+                    <h2>Hyatt</h2>
+                    <p>Garapan, Saipan</p>
+                    <i></i>
+                </div>
+                <a href="">
+                    <button  class="visit" type="button">
+                        <h2>Visit</h2>
+                    </button>
+                </a>
+            </div>
+
+            <div class="box">
+                <img src="images/worldspn.jpeg" alt="World Resort Picture" >
+                <div  class="hotel">
+                    <h2>World Resort</h2>
+                    <p>Susupe, Saipan</p>
+                    <i></i>
+                </div>
+                <a href="">
+                    <button  class="visit" type="button">
+                        <h2>Visit</h2>
+                    </button>
+                </a>
+            </div>
+
+            <div class="box">
+                <img src="images/pic.jpg" alt="Pacific Islands Club Picutre">
+                <div  class="hotel">
+                    <h2>Pacific Islands Club (PIC)</h2>
+                    <p>Garapan, Saipan</p>
+                    <i></i>
+                </div>
+                <a href="">
+                    <button  class="visit" type="button">
+                        <h2>Visit</h2>
+                    </button>
+                </a>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <div class="foot-container">
+            <div class="foot">
+                <img src="images/MALL-removebg-preview.png" alt="">
+            </div>
+            <div class="foot">
+                <h1>Thank you for visiting!</h1>
+            </div>
+            <div class="foot">
+                <h1>Contact Us!</h1>
+                <h2>Phone: </h2>
+                <a href="tel:123-456-7890">123-456-7890</a>
+                <h2>Email: </h2>
+                <a href="mailto:example@gmail.com">example@gmail.com</a>
+            </div>
+            <div class="foot">
+                <h1>Quick Links:</h1>
+                <ul>
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="contact.html">Contact Us</a></li>
+                </ul>
+            </div>
+            <br>
+            <div class="foot"> <p>I do not own the rights or own any images and videos used within this website. </p></div>
+        </div>
+    </footer>
+</body>
+</html>
